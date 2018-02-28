@@ -29,7 +29,7 @@ if (test3 === test3opp) {
 var test4 = 'mom';
 var test4opp = test4.split('').reverse().join('');
 if (test4 === test4opp) {
-    console.log("test4:" true);
+    console.log("test4:", true);
 } else {
     console.log("test4:", false);
-}
+};

@@ -33,3 +33,29 @@ if (test4 === test4opp) {
 } else {
     console.log("test4:", false);
 };
+
+
+var animals = ['fish', 'dog', 'cat'];
+var animalzElement = document.getElementById('animalz');
+for (var i=0; i<animals.length; i++) {
+    // console.log("animals:", animals[i]);
+    animalzElement.innerHTML += '<h5>' + animals[i] + '</h5>';
+}
+
+var book1 = 'Catch 22';
+// var bookSplit = book1.split('');
+// var realNumz = [];
+// for (var j=0; j<bookSplit.length; j++) {
+//     if (bookSplit[j]*1) {
+//      realNumz.push(bookSplit[j]);
+//     }
+// }
+// console.log("answer:", realNumz.join(''));
+var book1num = book1.replace(/\D/g,'');
+console.log("book1num:", book1num);
+var book2 = 'Slaughterhouse 5';
+var book2num = book2.replace(/\D/g,'');
+console.log("book2num:", book2num);
+var book3 = 'Fahrenheit 451';
+var book3num = book3.replace(/\D/g,'');
+console.log("book3num:", book3num);
